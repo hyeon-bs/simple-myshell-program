@@ -70,7 +70,7 @@ if (open(destfile, flags, 0666) == ERROR)
 
 ### 2. 파일 및 디렉토리 제어 모듈 (`File Operations`)
 #### `commands.c`
-* `sys/stat.h` 및 `unistd.h` 표준 헤더 기반 커널 함수 바인딩
+* `sys`/`stat.h` 및 `unistd.h` 표준 헤더 기반 커널 함수 바인딩
 * `mkdir`, `rmdir` 등 파일 시스템 변경 요청에 대한 디렉토리 버퍼 핸들링
 
 ## 🖥️ 실행 결과
